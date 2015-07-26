@@ -8,13 +8,23 @@
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1, minimal-ui">
   </head>
+  <link href="http://img5.duitang.com/css/0/a.ff0f6978e47b28bf31e620e6d1d3f9c9237add324f0be72043f4956d353b192d.css" rel="stylesheet" />
+  <link rel="stylesheet" href="http://img5.duitang.com/css/4/p/shopping/temaihui.265db9d51b6927d09c94156fc1daf90db0bb31fe4ba41a937a4681492b13df22.css">
   <body>
-    <div id="react-main-franky">
-      <%- reactOutput %>
-    </div>
-
-  <!-- comment out main.js to see server side only rendering -->
-  <script src="/franky.js"></script>
-
+    <div id="content">
+      <div class="pg-buy">
+        <div class="pg-buy-inner clr">
+          <div class="pg-comm-title">
+            <div class="pg-icon"></div>
+            <h1>限时抢购</h1>
+          </div>
+          <hr>
+          <div class="pg-buy-in-item" id="react-main-franky">
+            <%- reactOutput %>
+          </div>
+        </div>
+      </div>
+    </div>      
+    <script src="/franky.min.js"></script>
   </body>
 </html>

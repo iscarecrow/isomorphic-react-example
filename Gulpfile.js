@@ -14,7 +14,7 @@ gulp.task('scripts', function () {
 });
 
 gulp.task('compress', function() {
-  return gulp.src('./public/main.js')
+  return gulp.src('./public/franky.js')
     .pipe(uglify())
     .pipe(gulp.dest('./dist/'));
 });

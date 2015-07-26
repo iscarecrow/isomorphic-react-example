@@ -1,9 +1,4 @@
-{
-  status: 1,
-  data: {
-    more: 1,
-    next_start: 30,
-    object_list: [{
+var shoppingList = [{
       click_count: 32156,
       desc: "雪纺的材质舒服又清凉，复古风的设计穿起来很赞，小碎花甜美极了~",
       photo_url: "http://img4q.duitang.com/uploads/blog/201507/21/20150721154256_5AQCM.jpeg",
@@ -663,6 +658,9 @@
       blog_id: 405765155,
       promotion_end_at: 1438041600,
       source_link: "http://www.duitang.com/redirect/?to=http%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fspm%3Da230r.1.14.9.PQtMuI%26id%3D38769573772%26ns%3D1%26_u%3Dhvgie7n93d3%26abbucket%3D6%23detail&spm=2014.12553688.110.0&mk=mbd_405765155"
-    }]
-  }
-}
+    }];
+
+
+
+
+module.exports.shoppingList = shoppingList;
