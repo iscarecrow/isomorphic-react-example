@@ -18,12 +18,8 @@ var FrankyApp = React.createClass({
       render: function () {
         return (
           <div id="table-area">
-
              <Griddle results={fakeData}
-                      columnMetadata={columnMeta}
-                      resultsPerPage={resultsPerPage}
                       tableClassName="table"/>
-
           </div>
         )
       }

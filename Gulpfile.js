@@ -4,7 +4,7 @@ var gulp       = require('gulp'),
 
 gulp.task('scripts', function () {
 
-    gulp.src(['app/main.js'])
+    gulp.src(['app/franky.js'])
         .pipe(browserify({
             debug: false,
             transform: [ 'reactify' ]
